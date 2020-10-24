@@ -1,0 +1,121 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__nav a{
+  text-decoration: none;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+
+.header__optionBasket_lineOne {
+  color: #ccc;
+  margin-left: 42px;
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  margin-top: 9px;
+}
+.header__optionBasket_lineTwo {
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.header__optionBasket_cart_icon {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  background-position: -10px -340px;
+  width: 38px;
+  height: 26px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global_bluebeacon-1x_optimized_layout1._CB468670774_.png);
+  background-repeat: repeat-x;
+}
+
+.header__optionBasket_cart_count {
+  color: #f08804;
+  top: 7px;
+  left: 23px;
+  top: 0px;
+  font-size: 16px;
+  width: 19px;
+  font-weight: 700;
+  font-family: inherit;
+  position: absolute;
+  line-height: 16px;
+  text-align: center;
+}
+.header__optionBasket_link{
+  position: relative;
+}
